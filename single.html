@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Decorator Blog Example</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+<meta name="description" content="">
+<meta name="author" content="">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+<!-- css -->
+<link href="css/decorator-min.css" rel="stylesheet">
+<link href="css/icons-decorator-min.css" rel="stylesheet">
+<link href="css/theme.css" rel="stylesheet">
+<!-- css end-->
+</head>
+<body class="single-page">
+    
+<div class="top-bar fixed"><!-- Top Bar Start-->
+    <div class="inner padder">
+        <span class="open-action"><i class="bi_list"></i></span>
+        <a href="#" class="logo">Brand</a> 
+    </div>
+</div><!-- Top Bar End-->
+    
+<div class="navbar right-bar"> <!-- Navbar Right Start-->
+    <ul class="main-menu">
+        <li class="close-action"><i class="bi_circle_remove close-it"></i></li>
+        <li><a href="#">Portfolio</a></li>
+        <li class="devider"></li>
+        <li><a href="#">Blog Archive</a></li>
+        <li class="devider"></li>
+        <li><a href="#">Single Page</a></li>
+        <li class="devider"></li>
+        <li><a href="#">About us</a></li>
+        <li class="devider"></li>
+        <li><a href="#">Contact us</a></li>
+        <li class="devider"></li>
+    </ul>
+</div><!-- Navbar Right End-->
+    
+
+
+<div class="content-row"><!-- First Row Start-->
+    
+    <div class="parallax parallax-1">
+        <div class="wrapper960 center">
+            
+            <div class="block8">
+                <div class="inner user-widget">
+                    <span class="thumbnail">
+                        <img src="media/uloga.jpeg" alt="Alan Museljic">
+                    </span>
+                    <div class="user-info">
+                        <h2>Alan Museljic</h2>
+                        <p class="user-meta">22 Blog Posts</p>
+                        <ul class="list list-inline">
+                            <li class="first"><a href="https://www.facebook.com/webrebelz" target="_blank"><i class="so24_facebook"></i></a></li>
+                            <li><a href="https://www.twitter.com/alanuloga" target="_blank"><i class="so24_twitter"></i></a></li>
+                            <li><a href="https://plus.google.com/u/0/+AlanMuseljic/posts" target="_blank"><i class="so24_google_plus"></i></a></li>
+                            <li><a href="#"><i class="so24_linked_in"></i></a></li>
+                        </ul>
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <div class="block4">
+                <div class="inner">
+                    <input type="text"  placeholder="Search blog posts..">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="full-width"> <!-- Blog Page Start-->
+        <div class="wrapper960 center">
+            
+            <div class="block8 the-content">
+                <div class="inner">
+                    <h1 class="title">What is Lorem Ipsum?</h1>
+                    <p class="meta-info">1 day ago - In: <a href="#">Game Design</a></p>
+                    <img class="content-image" src="media/portfolio/2.jpg" alt="">
+                    <div class="content">
+                        
+                        <p>
+                            Contrary to popular belief, Lorem Ipsum is not simply random text. 
+                            It has roots in a piece of classical Latin literature from 45 BC, making 
+                            it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney 
+                            College in Virginia, looked up one of the more obscure Latin words, consectetur, 
+                            from a Lorem Ipsum passage, and going through the cites of the word in classical literature, 
+                            discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of 
+                            "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. 
+                            This book is a treatise on the theory of ethics, very popular during the Renaissance. 
+                            The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+                            The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. 
+                            Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced 
+                            in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+                        </p>
+                    
+                        <div class="quote border-yellow">
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                        </div>
+                        <h1>Heading 1</h1>
+                        <h2>Heading 2</h2>
+                        <h3>Heading 3</h3>
+                        <p>
+                            Contrary to popular belief, Lorem Ipsum is not simply random text. 
+                            It has roots in a piece of classical Latin literature from 45 BC, making 
+                            it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney 
+                            College in Virginia, looked up one of the more obscure Latin words, consectetur, 
+                            from a Lorem Ipsum passage, and going through the cites of the word in classical literature, 
+                            discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of 
+                            "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. 
+                            This book is a treatise on the theory of ethics, very popular during the Renaissance. 
+                            The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+                            The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. 
+                            Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced 
+                            in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+                        </p>
+                    </div>
+                    
+                    <!-- Comment Form Start -->	
+                    <div class="comment-form">
+                        <form class="form-basic text-area">
+
+                            <div class="grouped">
+                                <div class="w-50">
+                                    <label>Username<span class="label-require">*</span></label>
+                                    <input type="text" placeholder="Username">
+                                </div>
+                                <div class="w-50">
+                                    <label>Email address<span class="label-require">*</span></label>
+                                    <input type="text" placeholder="Email">
+                                </div>
+                            </div>
+
+                            <label>Phone number</label>
+                            <input type="text" placeholder="Phone number">
+
+                            <label>Comment<span class="label-require">*</span></label>   
+                            <textarea rows="4" placeholder="what's on your mind?"></textarea>
+
+                            <p>
+                                <button type="submit" class="button">Submit</button>
+                            </p>
+
+                        </form> 
+                    </div>
+                    <!-- Comment Form End -->
+                    
+                    <!-- Nested comment list start -->
+                    
+                    <ul class="filter-bottom">
+
+                        <li class="first active"><a href="#">Newer</a><span class="green">26</span></li>
+                        <li><a href="#">Older</a><span class="redish">320</span></li>
+                        <li><a href="#">Just Me</a></li>
+                    </ul>
+                    <ul class="list comment-list">
+                        
+                        <!-- First comment node start -->	
+                        <li>
+                        <div class="comment">
+                            <a class="comment-thumbnail" href="#">
+                                <img src="media/nouser.png" width="55">
+                            </a>
+                            <div class="comment-content">
+
+                                <p class="comment-heading">
+                                    <a class="comment-username" href="#">Alan Museljic</a>
+                                    <span class="comment-ago">2 days ago</span>
+                                </p>
+
+                                <p class="comment-body">
+                                Decorator is an easy to implement and use front-end framework  
+                                for creating web and mobile applications. 
+                                Decoretor is based on HTML, CSS and Javascript. It comes with lot's of 
+                                ready to use pre-built interface components and templates.
+                                </p>
+
+                                <div class="comment-meta">
+                                    <ul class="list list-inline">
+                                        <li class="first">24 <a href="#">Like </a></li>
+                                        <li>8 <a href="#">Dislike</a></li>
+                                        <li class="bold">6 <a href="#">Reply</a></li>
+                                    </ul>
+                                    <span class="children-count">36 More</span>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <ul class="children"><!-- NESTED CHILDREN START -->
+
+                        <!-- First child start -->
+
+                        <li>
+                        <div class="comment">
+                            <a class="comment-thumbnail" href="#">
+                                <img src="media/nouser.png" width="55">
+                            </a>
+                            <div class="comment-content">
+
+                                <p class="comment-heading">
+                                    <a class="comment-username" href="#">Alan Museljic</a>
+                                    <span class="comment-ago">2 days ago</span>
+                                </p>
+
+                                <p class="comment-body">
+                                Decorator is an easy to implement and use front-end framework  
+                                for creating web and mobile applications. 
+                                Decoretor is based on HTML, CSS and Javascript. It comes with lot's of 
+                                ready to use pre-built interface components and templates.
+                                </p>
+
+                                <div class="comment-meta">
+                                    <ul class="list list-inline">
+                                        <li class="first">24 <a href="#">Like </a></li>
+                                        <li>8 <a href="#">Dislike</a></li>
+                                        <li class="bold"><a href="#">Reply</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        </li>
+
+                        <!-- First child end --> 
+
+                        <!-- Second child start -->
+
+                        <li>
+                        <div class="comment">
+                            <a class="comment-thumbnail" href="#">
+                                <img src="media/nouser.png" width="55">
+                            </a>
+                            <div class="comment-content">
+
+                                <p class="comment-heading">
+                                    <a class="comment-username" href="#">Alan Museljic</a>
+                                    <span class="comment-ago">2 days ago</span>
+                                </p>
+
+                                <p class="comment-body">
+                                Decorator is an easy to implement and use front-end framework  
+                                for creating web and mobile applications. 
+                                Decoretor is based on HTML, CSS and Javascript. It comes with lot's of 
+                                ready to use pre-built interface components and templates.
+                                </p>
+
+                                <div class="comment-meta">
+                                    <ul class="list list-inline">
+                                        <li class="first">24 <a href="#">Like </a></li>
+                                        <li>8 <a href="#">Dislike</a></li>
+                                        <li class="bold"><a href="#">Reply</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        </li>
+
+                        <!-- Second child end -->
+
+                        <p class="view-more"><a href="#">more replies</p>
+
+                        </ul><!-- NESTED CHILDREN END -->	
+
+                        </li>
+                        <!-- First comment node end -->  
+
+
+                        <!-- Second comment node start -->	
+                        <li>
+                        <div class="comment">
+                            <a class="comment-thumbnail" href="#">
+                                <img src="media/nouser.png" width="55">
+                            </a>
+                            <div class="comment-content">
+
+                                <p class="comment-heading">
+                                    <a class="comment-username" href="#">Alan Museljic</a>
+                                    <span class="comment-ago">2 days ago</span>
+                                </p>
+
+                                <p class="comment-body">
+                                Decorator is an easy to implement and use front-end framework  
+                                for creating web and mobile applications. 
+                                Decoretor is based on HTML, CSS and Javascript. It comes with lot's of 
+                                ready to use pre-built interface components and templates.
+                                </p>
+
+                                <div class="comment-meta">
+                                    <ul class="list list-inline">
+                                        <li class="first">24 <a href="#">Like </a></li>
+                                        <li>8 <a href="#">Dislike</a></li>
+                                        <li class="bold"><a href="#">Reply</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        </li>
+                        <!-- Second comment node end --> 
+
+
+                    </ul>
+
+                    <!-- Nested comment list end -->
+                    
+                </div>
+            </div>
+            <div class="block4 sidebar">
+                <div class="inner">
+                    <h2>Related Articles:</h2>
+                    <p class="related-p">More Posts By: <a href="">Alan Museljic</a></p>
+                    <ul class="media-list list-hover">
+ 	
+                    <!-- List node 1 start -->	
+                    <li>
+                        <a class="media-thumbnail" href="#">
+                            <img src="media/portfolio/1.jpg" alt="">
+                        </a>
+                        <div class="media-content">
+                            <a class="media-title" href="#">What is decorator?</a>
+                            <p class="media-desc">
+                            Decorator is an easy to implement and use front-end framework 
+                            </p>
+                        </div>
+                    </li>
+                    <!-- List node 1 end -->
+                    
+                    <!-- List node 2 start -->	
+                    <li>
+                        <a class="media-thumbnail" href="#">
+                            <img src="media/portfolio/2.jpg" alt="">
+                        </a>
+                        <div class="media-content">
+                            <a class="media-title" href="#">What is decorator?</a>
+                            <p class="media-desc">
+                            Decorator is an easy to implement and use front-end framework 
+                            </p>
+                        </div>
+                    </li>
+                    <!-- List node 2 end -->
+                    
+                    <!-- List node 3 start -->	
+                    <li>
+                        <a class="media-thumbnail" href="#">
+                            <img src="media/portfolio/3.jpg" alt="">
+                        </a>
+                        <div class="media-content">
+                            <a class="media-title" href="#">What is decorator?</a>
+                            <p class="media-desc">
+                            Decorator is an easy to implement and use front-end framework 
+                            </p>
+                        </div>
+                    </li>
+                    <!-- List node 3 end -->
+                    
+                    <!-- List node 4 start -->	
+                    <li>
+                        <a class="media-thumbnail" href="#">
+                            <img src="media/portfolio/4.jpg" alt="">
+                        </a>
+                        <div class="media-content">
+                            <a class="media-title" href="#">What is decorator?</a>
+                            <p class="media-desc">
+                            Decorator is an easy to implement and use front-end framework 
+                            </p>
+                        </div>
+                    </li>
+                    <!-- List node 4 end -->
+                    
+                    <!-- List node 5 start -->	
+                    <li>
+                        <a class="media-thumbnail" href="#">
+                            <img src="media/portfolio/5.jpg" alt="">
+                        </a>
+                        <div class="media-content">
+                            <a class="media-title" href="#">What is decorator?</a>
+                            <p class="media-desc">
+                            Decorator is an easy to implement and use front-end framework 
+                            </p>
+                        </div>
+                    </li>
+                    <!-- List node 5 end -->
+                    
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div> <!-- Blog Page End-->
+    
+    
+
+    
+</div> <!-- First Row End-->
+
+
+<div class="content-footer"><!-- Footer Start-->
+    
+    <div class="full-width">
+        <div class="wrapper960 center">
+            <div class="block6">
+                <div class="inner">
+                    <h1>Decorator Blog</h1>
+                    <p class="desc">Built with decorator front-end framework!</p>
+                </div>
+            </div>
+            <div class="block6">
+                <div class="inner">
+                    <ul class="list list-inline">
+
+                        <li class="first"><a href="https://www.facebook.com/webrebelz" target="_blank"><i class="so24_facebook"></i></a></li>
+                        <li><a href="https://twitter.com/AlanUloga" target="_blank"><i class="so24_twitter"></i></a></li>
+                        <li><a href="https://plus.google.com/u/0/+AlanMuseljic/posts" target="_blank"><i class="so24_google_plus"></i></a></li>
+                        <li><a href="http://instagram.com/uloga"><i class="so24_instagram" target="_blank"></i></a></li>
+                        <li><a href=""><i class="so24_linked_in"></i></a></li>
+                        <li><a href=""><i class=" so24_pinterest"></i></a></li>
+
+                    </ul> 
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div> <!-- Footer End-->
+
+<!-- javascript start -->
+<script src="js/jquery.js"></script>
+<script src="js/jqui.js"></script>
+<script src="js/theme.js"></script>
+<!-- javascript end -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-32319292-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>

@@ -3,4 +3,6 @@ Decorator Parallax Blog
 
 Responsive 6 page Parallax Template Made With Decorator Front-End Framework
 
- [Decorator Front-End](http://decorator.codable.org) 
+[View Demo](http://blog.codable.org) 
+
+[Decorator Front-End](http://decorator.codable.org) 
